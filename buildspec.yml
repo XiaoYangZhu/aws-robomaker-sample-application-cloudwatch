@@ -10,7 +10,7 @@ phases:
       -  echo Checking simulation_ws.tar...
       -  ls -al /home/environment/simulation_ws.tar
       -  echo Checking robot_ws.tar...
-      -  ls -al home/environment/robot_ws.tar
+      -  ls -al /home/environment/robot_ws.tar
       -  echo Build completed on `date`
 artifacts:
   files:
