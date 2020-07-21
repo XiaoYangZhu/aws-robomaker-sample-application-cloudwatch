@@ -7,8 +7,8 @@ phases:
       -  echo Build started on `date`
       -  source /opt/ros/melodic/setup.bash; cd robot_ws; rosws update && rosdep update; rosdep install --from-paths src --ignore-src -r -y; colcon build; colcon bundle; mv bundle/output.tar /home/environment/robot_ws.tar-  cd ..; cd simulation_ws; rosws update && rosdep update; rosdep install --from-paths src --ignore-src -r -y; colcon build; colcon bundle; mv bundle/output.tar /home/environment/simulation_ws.tar
       -  echo Build completed on `date`
-  artifacts:
-    files:
-      -  '/home/environment/simulation_ws.tar'
-      -  '/home/environment/robot_ws.tar'
-    discard-paths: yes
+artifacts:
+  files:
+    -  '/home/environment/simulation_ws.tar'
+    -  '/home/environment/robot_ws.tar'
+  discard-paths: yes
