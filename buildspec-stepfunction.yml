@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    S3_BUCKET: robomaker-guyueju
+    S3_BUCKET: cicd-s3bucket-59t36trb2kwc
     APP_NAME: cicd
     CACHE_DIR: cache
     ROBOT_WS: robot_ws
