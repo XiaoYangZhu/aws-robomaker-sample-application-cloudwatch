@@ -31,7 +31,7 @@
 		"params": {
 			"failureBehavior": "Fail",
 			"iamRole": "arn:aws:iam::993602015689:role/robomaker-simulation-role-batch-ap-southeast-1-2",
-			"maxJobDurationInSeconds": 600,
+			"maxJobDurationInSeconds": 60000,
 			"outputLocation": {
 				"s3Bucket": "cicd-s3bucket-59t36trb2kwc",
 				"s3Prefix": "<S3_PREFIX>"
